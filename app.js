@@ -35,3 +35,11 @@ if (res === 'Я не робот'){
 }
 */
 
+const balance = 1001;
+const bonusBalance = 100;
+isBanned = false;
+isExist = false;
+isSelling = true;
+
+const canBuy = (balance > 1000 || bonusBalance > 100) && !isBanned && !isExist && isSelling;
+console.log(`Может купить ${canBuy ? 'Да': 'Нет'}`);
