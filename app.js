@@ -1,12 +1,37 @@
-const contribution = 11000;
-const percent = 0.07;
-const priceHome = 13500;
-const term = 24;
+/*const budget = 200000;
+const bmwxPrice = 100000;
 
-const result = contribution * (1 + percent / 12) ** term;  
+console.log(`Я хочу купить ${budget >=bmwxPrice ? 'БМВ': 'Ничего'}`)
+*/
 
-if (result >= priceHome) {
-    console.log(`WIN. I have ${result}`);
-} else {
-    console.log(`LOSE. You don't have enough ${(result - priceHome)*(-1)} `);
+/*
+const res = prompt('Сколько будет 7+ или -15 ?');
+switch (true){
+    case res === 'Я не робот':
+    case Number(res) === 22:
+    case Number(res) === -8:
+        console.log('Успех');
+        break;
+    default:
+        console.log('Вы робот');
 }
+*/
+
+/*
+const res = prompt('Сколько будет 7+ или -15 ?');
+
+if (res === 'Я не робот'){
+    console.log('Успех');
+} else {
+    const resNum = Number(res);
+    switch(resNum){
+        case 22:
+        case -8:
+            console.log('Успех');
+            break;
+        default:
+            console.log('Вы робот!')
+    }
+}
+*/
+
