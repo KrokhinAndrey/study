@@ -42,4 +42,4 @@ isExist = false;
 isSelling = true;
 
 const canBuy = (balance > 1000 || bonusBalance > 100) && !isBanned && !isExist && isSelling;
-console.log(`Может купить ${canBuy ? 'Да': 'Нет'}`);
+console.log(`Может купить ${canBuy ? 'Да': 'No'}`);
