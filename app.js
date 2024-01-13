@@ -69,4 +69,3 @@ function canBuy(productPrice, age, haveJob, money){
 
 
 console.log(`Результат ${canBuy(2000,25,false,1700)}`);
-co
